@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function StateSample() {
+function StateIncreaseSample() {
 
     const  [counter, setCounter] = useState(0);
 
@@ -9,10 +9,10 @@ function StateSample() {
     }
   return (
     <>
-    <h1>{counter}</h1>
+    <h1>Number: {counter}</h1>
     <button onClick={increase}>Increase</button>
     </>
   )
 }
 
-export default StateSample
+export default StateIncreaseSample

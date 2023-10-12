@@ -23,7 +23,7 @@ export const categoriesData = [
         "id": 5,
         "description": "Breads crackers pasta and cereal",
         "name": "Grains/Cereals"
-    },w
+    },
     {
         "id": 6,
         "description": "Prepared meats",
